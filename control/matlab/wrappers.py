@@ -197,7 +197,7 @@ def _parse_freqplot_args(*args):
 
 # TODO: rewrite to call root_locus_map, without using legacy plot keyword
 def rlocus(*args, **kwargs):
-    """rlocus(sys[, klist, xlim, ylim, ...])
+    """rlocus(sys[, kvect, xlim, ylim, ...])
 
     Root locus diagram.
 
